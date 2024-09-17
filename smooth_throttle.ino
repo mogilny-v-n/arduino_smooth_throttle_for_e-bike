@@ -24,6 +24,7 @@ void loop() {
 //  Serial.print(" Processing: ");
 //  Serial.print(VAL1);
   
+//  if (VAL1 > VAL2 && VAL1 > 60 && VAL1 < 160) {
   if (VAL1 > VAL2) {
     VAL2=VAL2+1;
     delay(TIME_DELAY);
